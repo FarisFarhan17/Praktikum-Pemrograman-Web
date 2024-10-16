@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Blog</title>
+</head>
+<body>
+
+    <header>
+        <h1 align="center">Nintendo Blog</h1>
+        <p align="center">All things Nintendo: news, reviews, and gaming insights!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Nintendo</a></li>
+            <li><a href="#games">Top Nintendo Games</a></li>
+            <li><a href="#product">Product</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Nintendo</h2>
+        <p>Nintendo has been a great force in the gaming industry, creating memorable consoles and games that span generations. From the NES to the Switch, these consoles definitely made our childhoods memorable.</p>
+    </section>
+
+    <section id="games">
+        <h2>Top Nintendo Games</h2>
+        <ul>
+            <li>The Pokemon Franchise</li>
+            <li>The Legend of Zelda: Breath of the Wild</li>
+            <li>Super Mario Odyssey</li>
+            <li>Animal Crossing</li>
+        </ul>
+    </section>
+
+    <section id="media">
+        <h3>Check Out the Latest Nintendo Console: The Nintendo Switch</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gUEhQ65FOJ8" title="Nintendo Switch Overview" frameborder="0" allowfullscreen></iframe> 
+        <h3>Have a Listen to One of My Personal Favourites!</h3>
+        <audio controls>
+            <source src="./Iwatodai Dorm.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <footer>
+        <h2>I Would Like to Know Your Opinion on this Brand, Please Feel Free to Share!</h2>
+        <form action="/submit" method="post">
+            <table border="1">
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="impression">Impressions:</label>
+                    </td>
+                    <td>
+                        <textarea id="impression" name="impression" rows="4" cols="50" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>        
+        <p>&copy; 2024 Nintendo Blog | All Rights Reserved....</p>
+    </footer>
+</body>
+</html>
